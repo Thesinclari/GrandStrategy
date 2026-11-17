@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Lux Osborn</title>
+  <desc id="desc">Portrait of a young blond king with blue eyes in a navy and gold royal uniform.</desc>
+  <defs>
+    <linearGradient id="paper" x2="0" y2="1"><stop stop-color="#eee6d4"/><stop offset="1" stop-color="#b9c0b5"/></linearGradient>
+    <linearGradient id="hair" x2=".8" y2="1"><stop stop-color="#fff0c8"/><stop offset=".48" stop-color="#d7b87e"/><stop offset="1" stop-color="#8d6849"/></linearGradient>
+    <linearGradient id="skin" x2=".85" y2="1"><stop stop-color="#ffe3c8"/><stop offset=".72" stop-color="#e9bda5"/><stop offset="1" stop-color="#c98f7d"/></linearGradient>
+    <linearGradient id="coat" x2="1" y2="1"><stop stop-color="#243d60"/><stop offset=".55" stop-color="#10233d"/><stop offset="1" stop-color="#091525"/></linearGradient>
+    <linearGradient id="gold" x2=".9" y2="1"><stop stop-color="#fff0af"/><stop offset=".42" stop-color="#d1a950"/><stop offset="1" stop-color="#765022"/></linearGradient>
+    <linearGradient id="white" x2="1" y2="1"><stop stop-color="#fffdf3"/><stop offset="1" stop-color="#c5c6bf"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#fff8e9" stop-opacity=".9"/><stop offset="1" stop-color="#d3c7ad" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="600" height="900" fill="url(#paper)"/><ellipse cx="306" cy="315" rx="268" ry="300" fill="url(#halo)"/>
+  <path d="M0 900V747q22-83 111-120l104-39 14-99h149l16 100 104 39q89 37 102 119v153Z" fill="url(#coat)"/>
+  <path d="m212 579 88 60 88-60 61 46-54 275H205l-54-275Z" fill="url(#gold)"/>
+  <path d="m239 588 61 51 61-51 40 42-39 270H238l-39-270Z" fill="url(#white)"/>
+  <path d="m278 631 22 17 22-17 17 29-19 240h-40l-19-240Z" fill="#172b46"/>
+  <path d="m91 637 105-45 82 66-40 99-192 55-46-65q17-71 91-110ZM509 637l-105-45-82 66 40 99 192 55 46-65q-17-71-91-110Z" fill="url(#gold)" stroke="#73572f" stroke-width="8"/>
+  <path d="m13 746 225-65 33 72-227 91ZM587 746l-225-65-33 72 227 91Z" fill="#17324e" stroke="#d5b35f" stroke-width="8"/>
+  <path d="m86 663 66-34 46 27-9 68-93 30-28-34Z" fill="#172a42" stroke="url(#gold)" stroke-width="9"/><path d="m514 663-66-34-46 27 9 68 93 30 28-34Z" fill="#172a42" stroke="url(#gold)" stroke-width="9"/>
+  <path d="m148 657 14 15 18-2-10 15 5 18-17-8-16 9 3-19-13-13 18-3Z" fill="#70c6d6" stroke="url(#gold)" stroke-width="5"/><path d="m452 657-14 15-18-2 10 15-5 18 17-8 16 9-3-19 13-13-18-3Z" fill="#70c6d6" stroke="url(#gold)" stroke-width="5"/>
+  <path d="M225 442h150v157q-14 60-75 71-61-11-75-71Z" fill="url(#skin)"/>
+  <path d="M185 270q8-143 117-168 124-28 176 78 33 68 11 219l-41 111-72-93-171 31-50-85Z" fill="url(#hair)"/>
+  <path d="M211 239q-3-82 55-123 68-49 140-16 77 35 84 126-50-39-81-83-33 62-116 76 8-34 9-54-39 52-91 74Z" fill="url(#hair)" stroke="#9b754c" stroke-width="5"/>
+  <path d="M215 263q-20 23-8 108 8 68 51 98 18 14 42 21 41 13 83-2 69-26 82-105l10-108q-26-12-52-43-25-28-37-52-47 50-140 75-16 5-31 8Z" fill="url(#skin)" stroke="#a87962" stroke-opacity=".45" stroke-width="4"/>
+  <path d="M205 308q25-13 59-5 18 4 31 16-23-8-39-6-29 1-51 15ZM329 319q24-18 55-15 25 1 43 14-25-4-46 4-23 8-36 18Z" fill="#775749"/>
+  <path d="M216 343q25-19 57-10 15 4 26 15-20-8-37-4-25 5-43 14ZM337 349q22-18 48-13 18 3 34 15-20-7-39-4-22 4-38 14Z" fill="#fff8eb" stroke="#6e5960" stroke-width="4"/>
+  <path d="M233 350q18-11 38-5 12 4 20 12-17-5-29-2-15 4-26 10Z" fill="#2584a0"/><path d="M350 354q15-11 32-6 10 3 18 10-15-4-27-1-12 3-22 9Z" fill="#2584a0"/>
+  <ellipse cx="269" cy="356" rx="6" ry="8" fill="#172a40"/><ellipse cx="369" cy="360" rx="6" ry="8" fill="#172a40"/><circle cx="271" cy="353" r="2" fill="#fff"/><circle cx="371" cy="357" r="2" fill="#fff"/>
+  <path d="M310 359q-8 32-16 61 13 11 30 5" fill="none" stroke="#bd8878" stroke-width="5" stroke-linecap="round"/><path d="M276 448q34 11 68-3" fill="none" stroke="#a75f59" stroke-width="5" stroke-linecap="round"/><path d="M282 448q28 4 54-3" fill="none" stroke="#fff0dd" stroke-width="3"/>
+  <path d="M186 294q-17 83 21 166l35 34-32-106 1-104ZM426 285q32 73 9 169l-29 47 20-112Z" fill="url(#hair)" stroke="#9b754c" stroke-width="4"/>
+  <path d="M217 243q-60-51-92-116 72 46 107 49-41-55-47-107 65 64 113 69-23-57-14-101 45 67 90 83 16-43 8-83 69 67 77 148-57-15-96-66-46 69-146 104Z" fill="url(#hair)" stroke="#9b754c" stroke-width="5"/>
+  <path d="M210 598q43 61 90 66l-39 94-79-112ZM390 598q-43 61-90 66l39 94 79-112Z" fill="#142a47" stroke="url(#gold)" stroke-width="8"/>
+  <path d="m300 662 17 25 29 4-21 20 5 29-30-14-30 14 5-29-21-20 29-4Z" fill="url(#gold)" stroke="#694a22" stroke-width="4"/><circle cx="300" cy="706" r="10" fill="#52b4c6"/>
+  <path d="M71 820q97-50 183-37M529 820q-97-50-183-37" fill="none" stroke="#d8bd77" stroke-opacity=".8" stroke-width="5"/>
+  <path d="M29 41h82M29 41v82M571 41h-82M571 41v82" fill="none" stroke="#a7884c" stroke-opacity=".5" stroke-width="3"/>
+</svg>
