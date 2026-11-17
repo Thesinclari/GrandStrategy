@@ -29,8 +29,12 @@
 .roster-entry:disabled{opacity:.55;cursor:not-allowed;color:#a8a08b}
 .roster-lock{position:absolute;right:6px;top:50%;transform:translateY(-50%);font-size:8px;color:#a79b80}
 .roster-note{margin:0;padding-top:5px;border-top:1px solid rgba(157,171,145,.18);font:400 9px/1.35 Manrope,system-ui,sans-serif;color:#a79f8d;text-align:center}
-.character-details{display:grid;grid-template-rows:auto minmax(0,1fr);gap:8px;min-width:0;min-height:0}
+.character-details{display:grid;grid-template-rows:auto auto minmax(0,1fr);gap:8px;min-width:0;min-height:0}
 .character-name{margin:0;font:600 clamp(22px,3vw,34px) Cinzel,Georgia,serif;letter-spacing:.06em;color:#f0d8a6;text-shadow:0 2px 10px #0008}
+.character-stats{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:7px}
+.character-stat{padding:7px 5px;border:1px solid rgba(215,181,116,.27);background:rgba(12,14,24,.55);text-align:center;min-width:0}
+.character-stat span{display:block;font:500 8px/1.2 Cinzel,Georgia,serif;letter-spacing:.05em;text-transform:uppercase;color:#b9ad94;white-space:nowrap}
+.character-stat b{display:block;margin-top:2px;font:600 19px/1 Cinzel,Georgia,serif;color:#f1d59d;text-shadow:0 1px 5px #0007}
 .character-biography{min-height:0;overflow:auto;padding-right:8px;color:#d9ddcf;font:400 12.5px/1.65 Manrope,system-ui,sans-serif;scrollbar-color:#9c895a #102126;scrollbar-width:thin;overscroll-behavior:contain}
 .character-biography p{margin:0 0 10px}.character-footer{justify-content:space-between;gap:12px}
 @media(max-width:700px){.character-stage{grid-template-columns:minmax(104px,132px) minmax(0,1fr);gap:12px;padding:12px 10px}.character-name{font-size:clamp(18px,4.6vw,24px)}.portrait-frame figcaption{font-size:9px}.character-biography{font-size:11.5px;line-height:1.6;padding-right:4px}}
@@ -69,6 +73,10 @@ button{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
   .roster-lock{right:4px;font-size:7px}
   .roster-note{font-size:8px;padding-top:4px}
   .character-details{gap:5px}
+  .character-stats{grid-template-columns:repeat(3,minmax(0,1fr));gap:5px}
+  .character-stat{padding:5px 3px}
+  .character-stat span{font-size:6.5px;letter-spacing:.02em}
+  .character-stat b{font-size:15px;margin-top:1px}
   .character-biography{font:400 11.5px/1.58 Manrope,system-ui,sans-serif;padding-right:4px;padding-bottom:10px;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;-webkit-mask-image:linear-gradient(180deg,#000 calc(100% - 16px),transparent);mask-image:linear-gradient(180deg,#000 calc(100% - 16px),transparent)}
   .character-biography p{margin-bottom:7px}
   .scenario-footer{min-height:46px;padding:7px 14px;gap:10px}
@@ -116,6 +124,11 @@ button{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
   .roster-entry{padding:5px 12px 5px 6px;font-size:8.5px}
   .roster-lock{right:4px}
   .roster-note{display:none}
+  .character-stats{grid-template-columns:repeat(6,minmax(0,1fr));gap:4px}
+  .character-stat{padding:3px 2px}
+  .character-stat span{font-size:6px;letter-spacing:0}
+  .character-stat b{font-size:13px;margin-top:0}
+  .character-biography{padding-bottom:12px;-webkit-mask-image:linear-gradient(180deg,#000 calc(100% - 16px),transparent);mask-image:linear-gradient(180deg,#000 calc(100% - 16px),transparent)}
   .game-ui{padding:8px 14px;gap:6px}
   .game-brand{font-size:14px;line-height:1.2;max-width:180px}
   .stat{min-width:68px;padding:5px 9px;font-size:8px}
@@ -193,6 +206,14 @@ button{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
         </aside>
         <div class="character-details">
           <h2 class="character-name">Lux Osborn</h2>
+          <div class="character-stats" aria-label="Lux Osborn stats">
+            <div class="character-stat"><span>Leadership</span><b>92</b></div>
+            <div class="character-stat"><span>War</span><b>82</b></div>
+            <div class="character-stat"><span>Intelligence</span><b>95</b></div>
+            <div class="character-stat"><span>Politics</span><b>93</b></div>
+            <div class="character-stat"><span>Charisma</span><b>86</b></div>
+            <div class="character-stat"><span>Ambition</span><b>88</b></div>
+          </div>
           <div class="character-biography" tabindex="0">
             <p>Lux Osborn is the young king of the Imperial Kingdom, inheriting the throne from his father.</p>
             <p>From an early age, Lux was raised under an exceptionally strict education. His father believed that a future ruler must prove his capabilities rather than rely solely on royal blood.</p>
